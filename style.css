@@ -1,0 +1,42 @@
+body
+{
+    margin: 40px auto;
+    max-width: 800px;
+    line-height: 1.7;
+    font-size: 18px;
+    padding: 0 10px;
+	background-color: #e3f2f2;
+}
+
+/*set image for background on home screen*/
+body.home
+{
+	background: url(bg.jpg) no-repeat center center fixed; 
+ 	background-size: cover;
+	text-align: center;
+
+}
+
+h1
+{
+	font-family: Arial, sans-serif;
+}
+
+p.link
+{
+	font-family: 'Courier New', monospace;
+}
+
+/*no link decoration*/
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+/*underline link when hovered over*/
+a:hover, a:focus
+{
+    text-decoration: underline;
+}
+
